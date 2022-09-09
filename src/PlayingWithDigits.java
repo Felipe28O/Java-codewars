@@ -10,7 +10,7 @@ public class PlayingWithDigits {
                 if (totalPow == valFunnyNum){
                     return exponent;
                 }
-                else if (valFunnyNum>totalPow){
+                else if (valFunnyNum>totalPow || exponent>1000000){
                     return -1;
                 }
             }
